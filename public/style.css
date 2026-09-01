@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    color: #222;
+}
+
+header {
+    background: #222;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+button {
+    border: none;
+    background: #222;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.login-box {
+    width: 90%;
+    max-width: 400px;
+    margin: 100px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.login-box input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.login-box button {
+    width: 100%;
+    margin-top: 10px;
+}
+
+main {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+}
+
+.upload {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+#gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 15px;
+}
+
+.media-item {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.media-item img,
+.media-item video {
+    width: 100%;
+    display: block;
+}
