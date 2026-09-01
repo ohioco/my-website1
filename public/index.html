@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>My Media</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>My Media</h1>
+
+        <div>
+            <span id="username"></span>
+
+            <button id="logout">
+                Logout
+            </button>
+        </div>
+
+    </header>
+
+    <main>
+
+        <section class="upload">
+
+            <h2>Upload media</h2>
+
+            <input
+                type="file"
+                id="media"
+                accept="image/*,video/*"
+            >
+
+            <button id="uploadButton">
+                Upload
+            </button>
+
+            <p id="status"></p>
+
+        </section>
+
+        <section>
+
+            <h2>Your media</h2>
+
+            <div id="gallery"></div>
+
+        </section>
+
+    </main>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
